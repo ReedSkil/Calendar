@@ -1,0 +1,25 @@
+body {
+    background-color: darkblue;
+    color: white;
+}
+.calendar {
+    font-family: Arial, sans-serif;
+}
+.calendar .month {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.calendar .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.calendar .day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.calendar .cday {
+	background-color: lightblue;
+    font-weight: bold;
+}
